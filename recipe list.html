@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Recipe List</title>
+
+    <!-- code for font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- code for font awesome CDN -->
+
+    <!-- code for linking CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- code for linking CSS file -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+
+
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 10rem;
+    padding: 0;
+    background-color: #f2f2f2;
+
+}
+
+
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+.recipe-item {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    width: 95%;
+    height: 650px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid orange;
+}
+
+.recipe-image {
+    width: 50%;
+    float: left;
+}
+
+.recipe-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.recipe-info {
+    width: 50%;
+    float: left;
+    padding: 100px;
+}
+
+.recipe-info h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.recipe-info p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+     <!-- header section -->
+     <header class="header">
+        <a href="#" class="logo"><i class="fa fa-cutlery" aria-hidden="true"></i> Recipe</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="recipe list.html">Recipe List</a>
+            <a href="recipe-detail.html">Recipe Details</a>
+            <a href="add-edit-recipe.html">Add/Edit Recipes</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here..">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+
+     
+    
+
+
+<section class="recipe-list">
+
+    <div class="recipe-item">
+        <div class="recipe-image">
+            <img src="img/bbm.png" alt="Food 1">
+        </div>
+        <div class="recipe-info">
+            <h2>Recipe 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tortor ut elit pharetra venenatis.</p>
+            <a href="recipe-detail.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="recipe-item">
+        <div class="recipe-image">
+            <img src="img/ssm.png" alt="Food 1">
+        </div>
+        <div class="recipe-info">
+            <h2>Recipe 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tortor ut elit pharetra venenatis.</p>
+            <a href="recipe-detail.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="recipe-item">
+        <div class="recipe-image">
+            <img src="img/mmm.png" alt="Food 1">
+        </div>
+        <div class="recipe-info">
+            <h2>Recipe 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tortor ut elit pharetra venenatis.</p>
+            <a href="recipe-detail.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="recipe-item">
+        <div class="recipe-image">
+            <img src="img/las.png" alt="Food 1">
+        </div>
+        <div class="recipe-info">
+            <h2>Recipe 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tortor ut elit pharetra venenatis.</p>
+            <a href="recipe-detail.html" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="recipe-item">
+        <div class="recipe-image">
+            <img src="img/egg1.png" alt="Food 2">
+        </div>
+        <div class="recipe-info">
+            <h2>Recipe 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in tortor ut elit pharetra venenatis.</p>
+            <a href="recipe-detail.html" class="btn">Read More</a>
+        </div>
+    </div>
+    <!-- Add more recipe items here -->
+</section>
+
+
+
+
+     <!-- Footer Section-->
+     <section class="footer">
+        <div class="box-container">
+            <div class="box1">
+                <h3>Contacts Info</h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9801111111</a><br>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9800000000</a><br>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i>  info@gmail.com</a><br>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i>  Sifal,KTM,Nepal</a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Quicks Links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i>  Home</a><br>
+                <a href="recipe list.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe List</a><br>
+                <a href="recipe-detail.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe Details</a><br>
+                <a href="about.html" class="links"> <i class="fa fa-arrow-right"></i>  About Us</a><br>
+                <a href="contact.html" class="links"> <i class="fa fa-arrow-right"></i>  Contact </a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="Your Email" class="email"><br>
+                <input type="Submit" value="Subscribe" class="btn">
+                
+            </div>
+        </div>
+
+    </section><!-- Footer Section-->
+
+    <!-- code for linking JavaScript file -->
+    <script src="js/script.js"></script>
+    <!-- code for linking JavaScript file -->
+</body>
+</html>

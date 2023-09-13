@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Contact Us</title>
+
+     <!-- code for font awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- code for font awesome CDN -->
+ 
+     <!-- code for linking CSS file -->
+     <link rel="stylesheet" type="text/css" href="/css/style.css">
+     <!-- code for linking CSS file -->
+ 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+     <style>
+        /* Style the container */
+
+        body {
+            font-family: Arial, sans-serif;
+            padding-top: 10rem;
+            border: 3px solid green;
+        }
+
+        .container {
+            padding: 4rem 10rem;
+            border: 1px solid red;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(91, 91, 91, 0.911);
+            text-align: center;
+            margin-bottom: 10rem;
+            margin-top: 5rem;
+        }
+
+        /* Style the heading */
+        h1 {
+            background: rgb(0, 128, 0);
+            color: #fff;
+            display: inline;
+            padding: 1rem 6rem;
+            border-radius: .5rem;
+        }
+
+        /* Style form groups */
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        /* Style labels */
+        label {
+            display: block;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 6px;
+        }
+
+        /* Style input fields */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        /* Style the textarea */
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+       
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+
+     <!-- header section -->
+     <header class="header">
+        <a href="#" class="logo"><i class="fa fa-cutlery" aria-hidden="true"></i> Recipe</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="recipe list.html">Recipe List</a>
+            <a href="recipe-detail.html">Recipe Details</a>
+            <a href="add-edit-recipe.html">Add/Edit Recipes</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here..">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+
+    
+ <!-- contact us page -->
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+ <!-- contact us page -->
+
+
+     <!-- Footer Section-->
+     <section class="footer">
+        <div class="box-container">
+            <div class="box1">
+                <h3>Contacts Info</h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9801111111</a><br>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9800000000</a><br>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i>  info@gmail.com</a><br>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i>  Sifal,KTM,Nepal</a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Quicks Links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i>  Home</a><br>
+                <a href="recipe list.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe List</a><br>
+                <a href="recipe-detail.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe Details</a><br>
+                <a href="about.html" class="links"> <i class="fa fa-arrow-right"></i>  About Us</a><br>
+                <a href="contact.html" class="links"> <i class="fa fa-arrow-right"></i>  Contact </a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="Your Email" class="email"><br>
+                <input type="Submit" value="Subscribe" class="btn">
+                
+            </div>
+        </div>
+
+    </section><!-- Footer Section-->
+
+
+
+<!-- code for linking JavaScript file -->
+    <script src="js/script.js"></script>
+<!-- code for linking JavaScript file -->
+</body>
+</html>

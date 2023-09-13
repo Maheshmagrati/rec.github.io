@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Recipe Details</title>
+
+    <!-- code for font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- code for font awesome CDN -->
+
+    <!-- code for linking CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- code for linking CSS file -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding-top: 10rem;
+        }
+
+
+        .recipe-container {
+            border: 0px solid red;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            font-size: 2rem;
+            padding-left: 10rem;
+        }
+
+        .recipe-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .recipe-title {
+            background: rgb(0, 128, 0);
+            color: #fff;
+            display: inline;
+            padding: .5rem 3rem;
+            border-radius: .5rem;
+        }
+
+        .recipe-container p {
+            padding-top: 5rem;
+        }
+
+
+        .recipe-container p ul span {
+            font-weight: bold;
+            color: green;
+        }
+
+        .aaaa {
+            align-items: left;
+        }
+    </style>
+
+
+
+
+
+
+    <!--HTML Section-->
+
+</head>
+
+<body>
+
+
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-cutlery" aria-hidden="true"></i> Recipe</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="recipe list.html">Recipe List</a>
+            <a href="recipe-detail.html">Recipe Details</a>
+            <a href="add-edit-recipe.html">Add/Edit Recipes</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here..">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+
+
+
+    <div class="recipe-container">
+
+        <img src="img/mmm.png" alt="Recipe 1" class="recipe-image">
+
+        <h2 class="recipe-title">Nepali Mo:Mo</h2>
+
+
+        <p>
+
+        <ul>
+            <span>Here is incrediabally easy to follow recipe for Nepali Mo:Mo</span><br>
+            <span>Ingredients:</span><br>
+            <span>For the Momo Dough:</span><br>
+
+            <li>2 cups all-purpose flour</li>
+            <li>A pinch of salt</li>
+            <li>Water (for kneading)</li>
+
+
+            <span>For the Chicken Filling:</span>
+
+            <li>1/2 lb ground chicken</li>
+            <li>1 small onion, finely chopped</li>
+            <li>2 cloves garlic, minced</li>
+            <li>1-inch piece of ginger, minced</li>
+            <li>1/2 cup finely chopped cabbage</li>
+            <li>1/4 cup finely chopped cilantro</li>
+            <li>1/2 teaspoon turmeric powder</li>
+            <li>1/2 teaspoon cumin powder</li>
+            <li>1/2 teaspoon coriander powder</li>
+            <li>Salt and pepper to taste</li>
+            <li>1-2 tablespoons cooking oil</li>
+
+
+            <span>For the Momo Sauce (Dipping Sauce):</span>
+            <li>2 tablespoons soy sauce</li>
+            <li>1 tablespoon chili sauce (adjust to your spice preference)</li>
+            <li>1 teaspoon sesame oil</li>
+            <li>1 teaspoon vinegar</li>
+            <li>1 clove garlic, minced</li>
+
+
+            <span>Instructions:</span>
+
+
+            <span>1. Prepare the Momo Dough:</span>
+
+            <li>In a large bowl, combine the all-purpose flour and a pinch of salt.</li>
+            <li>Gradually add water and knead the dough until it becomes smooth and elastic.</li>
+            <li>Cover the dough with a damp cloth and let it rest for 30 minutes.</li>
+
+
+            <span>2. Prepare the Chicken Filling:</span>
+
+            <li>In a pan, heat 1-2 tablespoons of cooking oil over medium heat.</li>
+            <li>Add minced garlic and ginger, sauté for a minute until fragrant.</li>
+            <li>Add finely chopped onions and cook until they become translucent.</li>
+            <li>Add ground chicken and cook until it turns white and crumbly.</li>
+            <li>Stir in turmeric, cumin, coriander powder, salt, and pepper. Mix well.</li>
+            <li>Add chopped cabbage and cook for another 2-3 minutes.</li>
+            <li>Finally, add chopped cilantro, mix, and remove from heat. Let the filling cool.</li>
+
+            <span>3. Assemble the Momo:</span>
+
+            <li> Take a small portion of the dough and roll it into a small, thin circle (about 3 inches in diameter).
+            </li>
+            <li>Place a spoonful of the chicken filling in the center of the dough circle.</li>
+            <li>Fold the circle in half to create a half-moon shape.</li>
+            <li>Pinch the edges together to seal the momo. You can use various folding techniques for a decorative edge.
+            </li>
+
+
+            <span>4. Steam the Momo:</span>
+
+            <li> Grease a steamer tray to prevent sticking.</li>
+            <li>Place the momo on the steamer tray, leaving some space between them.</li>
+            <li>Steam the momo for about 15-20 minutes until the dough becomes translucent and the filling is cooked
+                through.</li>
+
+
+            <span>5. Prepare the Momo Sauce:</span>
+
+            <li>While the momo are steaming, mix soy sauce, chili sauce, sesame oil, vinegar, and minced garlic in a
+                small bowl. Adjust the sauce to your taste.</li>
+
+            <span>6. Serve:</span>
+
+            <li>Once the momo are cooked, remove them from the steamer.</li>
+            <li>Serve hot with the dipping sauce on the side.</li>
+
+        </ul>
+        Enjoy your homemade Nepali chicken momo! You can also experiment with different fillings like vegetable, pork,
+        or beef to suit your preferences.
+
+        </p>
+    </div>
+
+
+
+    <div class="recipe-container">
+        <img src="img/bbm.png" alt="Recipe 2" class="recipe-image">
+        <h2 class="recipe-title">Chicken Briyani</h2>
+        <div class="aaaa">
+            <h2>Ingredients:</h2>
+            <ul class="chicken">
+                <li>For Marinating Chicken:</li>
+                <ul>
+                    <li>500 grams (1 pound) chicken, cut into pieces</li>
+                    <li>1 cup yogurt</li>
+                    <li>1 tablespoon ginger-garlic paste</li>
+                    <li>1 teaspoon red chili powder</li>
+                    <li>1/2 teaspoon turmeric powder</li>
+                    <li>1 teaspoon garam masala</li>
+                    <li>Salt to taste</li>
+                </ul>
+                <li>For Rice:</li>
+                <ul>
+                    <li>2 cups Basmati rice</li>
+                    <li>4 cups water</li>
+                    <li>2-3 green cardamom pods</li>
+                    <li>2-3 cloves</li>
+                    <li>1 bay leaf</li>
+                    <li>Salt to taste</li>
+                </ul>
+                <li>For Biryani:</li>
+                <ul>
+                    <li>2 large onions, thinly sliced</li>
+                    <li>2 tomatoes, chopped</li>
+                    <li>2 green chilies, slit</li>
+                    <li>1/4 cup fresh coriander leaves, chopped</li>
+                    <li>1/4 cup fresh mint leaves, chopped</li>
+                    <li>2 tablespoons vegetable oil or ghee</li>
+                    <li>1/4 cup warm milk</li>
+                    <li>A pinch of saffron strands (optional, for garnish)</li>
+                    <li>Ghee for frying onions (optional)</li>
+                    <li>Fried onions for garnish (optional)</li>
+                </ul>
+            </ul>
+
+            <h2>Instructions:</h2>
+            <ol>
+                <li>Marinating the Chicken:</li>
+                <ul>
+                    <li>In a large mixing bowl, combine the yogurt, ginger-garlic paste, red chili powder, turmeric
+                        powder, garam masala, and salt.</li>
+                    <li>Add the chicken pieces to the marinade mixture. Ensure the chicken is well-coated with the
+                        marinade. Cover the bowl and let it marinate for at least 30 minutes. You can refrigerate it for
+                        a few hours for better flavor.</li>
+                </ul>
+                <li>Preparing the Rice:</li>
+                <ul>
+                    <li>Wash the Basmati rice thoroughly under cold running water until the water runs clear. Soak the
+                        rice in water for 30 minutes, then drain.</li>
+                    <li>In a large pot, bring 4 cups of water to a boil. Add the drained rice, green cardamom pods,
+                        cloves, bay leaf, and a pinch of salt. Cook until the rice is 70-80% cooked, with a slight bite
+                        to it. Drain the rice and set it aside.</li>
+                </ul>
+                <li>Making the Biryani:</li>
+                <ul>
+                    <li>Heat vegetable oil or ghee in a large, heavy-bottomed pan or a biryani pot over medium heat. If
+                        desired, you can also fry the thinly sliced onions in ghee until they are brown and crispy for
+                        garnish.</li>
+                    <li>Add the sliced onions to the hot oil and sauté until they turn golden brown. Remove half of the
+                        fried onions and set them aside for garnish.</li>
+                    <li>Add the marinated chicken to the remaining onions in the pot. Cook the chicken on medium heat
+                        until it's no longer pink, and the oil begins to separate from the masala. Stir occasionally.
+                    </li>
+                    <li>Add the chopped tomatoes and green chilies. Cook until the tomatoes become soft and the oil
+                        separates again.</li>
+                    <li>Layer the partially cooked rice over the chicken mixture in the pot. Sprinkle half of the
+                        chopped coriander and mint leaves on top.</li>
+                    <li>Drizzle warm milk over the rice and sprinkle saffron strands (if using) for added flavor and
+                        color.</li>
+                    <li>Cover the pot with a tight-fitting lid and reduce the heat to low. Let it cook for 20-25 minutes
+                        or until the chicken is tender and the rice is fully cooked and aromatic.</li>
+                    <li>Garnish the chicken biryani with the reserved fried onions, coriander leaves, and mint leaves.
+                    </li>
+                    <li>Serve hot with raita (yogurt sauce) or a side salad.</li>
+                </ul>
+            </ol>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="recipe-container">
+        <img src="img/egg1.png" alt="Recipe 2" class="recipe-image">
+        <h2 class="recipe-title">Egg Fried Rice</h2>
+        <div class="aaaa" >
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups cooked and cooled white rice (preferably day-old rice)</li>
+            <li>2 large eggs</li>
+            <li>2 tablespoons vegetable oil</li>
+            <li>1/2 cup finely chopped onion</li>
+            <li>1/2 cup finely chopped carrots</li>
+            <li>1/2 cup frozen peas, thawed</li>
+            <li>2 cloves garlic, minced</li>
+            <li>2-3 tablespoons soy sauce (adjust to taste)</li>
+            <li>Salt and pepper to taste</li>
+            <li>Green onions (scallions), chopped for garnish (optional)</li>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Prepare the Ingredients:
+                <ul>
+                    <li>Cook the rice ahead of time and let it cool. Day-old rice works best for fried rice as it's
+                        drier and less likely to become mushy.</li>
+                    <li>Beat the eggs in a small bowl and set them aside.</li>
+                    <li>Finely chop the onion, carrots, and garlic. Thaw the frozen peas.</li>
+                </ul>
+            </li>
+            <li>Cook the Eggs:
+                <ul>
+                    <li>Heat 1 tablespoon of vegetable oil in a large skillet or wok over medium-high heat.</li>
+                    <li>Pour the beaten eggs into the skillet and cook them, stirring gently, until they are scrambled
+                        and just set.</li>
+                    <li>Remove the scrambled eggs from the skillet and set them aside.</li>
+                </ul>
+            </li>
+            <li>Sauté the Vegetables:
+                <ul>
+                    <li>In the same skillet, add another tablespoon of oil if needed.</li>
+                    <li>Add the minced garlic and chopped onion. Sauté for a minute or two until they become fragrant
+                        and the onion becomes translucent.</li>
+                    <li>Add the finely chopped carrots and cook for 3-4 minutes until they start to soften.</li>
+                    <li>Stir in the thawed peas and cook for another 2 minutes.</li>
+                </ul>
+            </li>
+            <li>Add Rice and Eggs:
+                <ul>
+                    <li>Add the cooked and cooled rice to the skillet. Break up any clumps and stir-fry with the
+                        vegetables for a few minutes until the rice is heated through.</li>
+                    <li>Return the scrambled eggs to the skillet and mix them with the rice and vegetables.</li>
+                </ul>
+            </li>
+            <li>Season with Soy Sauce:
+                <ul>
+                    <li>Drizzle 2-3 tablespoons of soy sauce evenly over the rice mixture. You can adjust the amount of
+                        soy sauce to your taste.</li>
+                    <li>Season with salt and pepper as needed.</li>
+                </ul>
+            </li>
+            <li>Finish and Serve:
+                <ul>
+                    <li>Continue to stir-fry the fried rice for a few more minutes until everything is well combined and
+                        heated through.</li>
+                    <li>Optionally, garnish with chopped green onions (scallions).</li>
+                    <li>Serve your homemade Egg Fried Rice hot as a side dish or a main course.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p>Enjoy your delicious homemade Egg Fried Rice! Feel free to customize it by adding other ingredients like
+            cooked chicken, shrimp, or your favorite vegetables.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="recipe-container">
+        <img src="img/ssm.png" alt="Recipe 3" class="recipe-image">
+        <h2 class="recipe-title">Samosa</h2>
+        <div class="aaaa">
+            Ingredients:
+
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>For the Samosa Dough:</li>
+            <ul>
+                <li>2 cups all-purpose flour</li>
+                <li>1/4 cup vegetable oil or ghee (clarified butter)</li>
+                <li>A pinch of salt</li>
+                <li>Water (for kneading)</li>
+            </ul>
+            <li>For the Samosa Filling:</li>
+            <ul>
+                <li>2 large potatoes, boiled, peeled, and chopped into small cubes</li>
+                <li>1/2 cup green peas (fresh or frozen)</li>
+                <li>1 small onion, finely chopped</li>
+                <li>2 cloves garlic, minced</li>
+                <li>1-inch piece of ginger, minced</li>
+                <li>1-2 green chilies, finely chopped (adjust to your spice preference)</li>
+                <li>1 teaspoon cumin seeds</li>
+                <li>1 teaspoon coriander powder</li>
+                <li>1/2 teaspoon turmeric powder</li>
+                <li>1/2 teaspoon garam masala</li>
+                <li>Salt to taste</li>
+                <li>2 tablespoons vegetable oil</li>
+                <li>Fresh cilantro leaves, chopped (optional, for garnish)</li>
+            </ul>
+            <li>For Frying:</li>
+            <ul>
+                <li>Vegetable oil (for deep frying)</li>
+            </ul>
+        </ul>
+
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Prepare the Samosa Dough:
+                <ul>
+                    <li>In a mixing bowl, combine the all-purpose flour, a pinch of salt, and 1/4 cup of vegetable oil
+                        or ghee.</li>
+                    <li>Gradually add water and knead the mixture into a firm and smooth dough. Cover it with a damp
+                        cloth and let it rest for 30 minutes.</li>
+                </ul>
+            </li>
+            <li>Prepare the Samosa Filling:
+                <ul>
+                    <li>In a pan, heat 2 tablespoons of vegetable oil over medium heat.</li>
+                    <li>Add cumin seeds and let them sizzle for a few seconds.</li>
+                    <li>Add minced garlic, ginger, and green chilies. Sauté for a minute until fragrant.</li>
+                    <li>Add chopped onions and cook until they become translucent.</li>
+                    <li>Stir in coriander powder, turmeric powder, garam masala, and salt.</li>
+                    <li>Add the cubed potatoes and green peas. Mix well and cook for 5-7 minutes, allowing the flavors
+                        to meld. Remove from heat and let the filling cool.</li>
+                </ul>
+            </li>
+            <li>Shape the Samosas:
+                <ul>
+                    <li>Divide the rested dough into small equal portions and roll each portion into a ball.</li>
+                    <li>Roll out each ball into a thin oval or round shape, about 6 inches in diameter.</li>
+                    <li>Cut each oval in half to form two semi-circles.</li>
+                    <li>Take one semi-circle and fold it in half to create a cone shape.</li>
+                    <li>Seal the edges using a little water to form a cone.</li>
+                    <li>Fill the cone with the potato-pea filling, about 2-3 tablespoons.</li>
+                    <li>Seal the open edge, pinching it tightly to ensure the filling doesn't spill out.</li>
+                </ul>
+            </li>
+            <li>Fry the Samosas:
+                <ul>
+                    <li>Heat vegetable oil in a deep frying pan over medium-high heat.</li>
+                    <li>Carefully slide the prepared samosas into the hot oil, a few at a time.</li>
+                    <li>Fry them until they turn golden brown and crispy, turning occasionally. This usually takes about
+                        6-8 minutes.</li>
+                    <li>Remove the fried samosas using a slotted spoon and place them on paper towels to drain excess
+                        oil.</li>
+                </ul>
+            </li>
+            <li>Serve:
+                <ul>
+                    <li>Serve hot samosas with mint chutney, tamarind sauce, or ketchup.</li>
+                    <li>Optionally, garnish with chopped fresh cilantro leaves.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p>Enjoy your homemade samosas as a delightful snack or appetizer!</p>
+    </div>
+
+    </div>
+
+
+    <div class="recipe-container">
+        <img src="img/las.png" alt="Recipe 2" class="recipe-image">
+        <h2 class="recipe-title">Lassi</h2>
+        <div class="aaaa">
+            Ingredients:
+        <ol>
+            <li>1 cup plain yogurt (preferably full-fat)</li>
+            <li>1/2 cup cold water</li>
+            <li>3-4 tablespoons granulated sugar (adjust to taste)</li>
+            <li>1/2 teaspoon ground cardamom (optional)</li>
+            <li>A few ice cubes (optional)</li>
+        </ol>
+
+        Instructions:
+        <ol>
+            <li>Prepare the Sweet Lassi:
+                <ul>
+                    <li>In a blender, combine 1 cup of plain yogurt, 1/2 cup of cold water, and 3-4 tablespoons of
+                        granulated sugar. You can adjust the sugar to your preferred sweetness level.</li>
+                    <li>If you like, add a pinch of ground cardamom for extra flavor.</li>
+                    <li>Blend the mixture until it's smooth and frothy.</li>
+                </ul>
+            </li>
+            <li>Serve:
+                <ul>
+                    <li>If you like your lassi chilled, you can add a few ice cubes to the blender and blend them with
+                        the mixture for a colder beverage.</li>
+                    <li>Pour the lassi into glasses.</li>
+                    <li>Optionally, garnish with a sprinkle of ground cardamom or a few slivers of almonds or
+                        pistachios.</li>
+                </ul>
+            </li>
+            <li>Enjoy:
+                <ul>
+                    <li>Serve your sweet or mango lassi immediately while it's cold and refreshing.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p>Lassi is a versatile drink, and you can adjust the sweetness and consistency to your
+            liking by varying the amount of sugar and water.
+            It's perfect for enjoying on a hot day or as a complement to spicy Indian dishes.</p>
+        </div>
+    </div>
+
+
+    <!-- Footer Section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box1">
+                <h3>Contacts Info</h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +977 9801111111</a><br>
+                <a href="#" class="links"> <i class="fa fa-phone"></i> +977 9800000000</a><br>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i> info@gmail.com</a><br>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i> Sifal,KTM,Nepal</a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Quicks Links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a><br>
+                <a href="recipe list.html" class="links"> <i class="fa fa-arrow-right"></i> Recipe List</a><br>
+                <a href="recipe-detail.html" class="links"> <i class="fa fa-arrow-right"></i> Recipe Details</a><br>
+                <a href="about.html" class="links"> <i class="fa fa-arrow-right"></i> About Us</a><br>
+                <a href="contact.html" class="links"> <i class="fa fa-arrow-right"></i> Contact </a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="Your Email" class="email"><br>
+                <input type="Submit" value="Subscribe" class="btn">
+
+            </div>
+        </div>
+
+    </section><!-- Footer Section-->
+
+    <!-- code for linking JavaScript file -->
+    <script src="js/script.js"></script>
+    <!-- code for linking JavaScript file -->
+</body>
+
+</html>

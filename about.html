@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+
+ <!-- code for font awesome CDN -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- code for font awesome CDN -->
+
+ <!-- code for linking CSS file -->
+ <link rel="stylesheet" type="text/css" href="./css/style.css">
+ <!-- code for linking CSS file -->
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+ <style>
+    /* Reset some default styles */
+    body, h1, p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Apply basic styling to the page */
+    body {
+        margin-top: 2rem;
+        border: 5px solid yellowgreen;
+        padding-top: 10rem;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7 !important;
+        
+    }
+
+
+    /* Style the container */
+    .container {
+        max-width: 1140px;
+        padding: 20px 0;
+        margin: 0  auto;
+        
+    }
+
+    /* Style the heading */
+    .container h1 {
+            background: rgb(0, 128, 0);
+            color: #fff;
+            padding: .5rem 3rem;
+            border-radius: .5rem;
+            text-align: center;
+    }
+
+    /* Style the paragraph text */
+    p {
+        font-size: 16px;
+        line-height: 3.5rem;
+        color: #555;
+    }
+
+    /* Style the team members section */
+    .team-members {
+        border: 0px solid orange;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Style individual team member cards */
+    .team-member {
+        border: 0px solid green;
+        width: 40%;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    /* Style team member images */
+    .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    /* Style team member names */
+    .team-member h2 {
+        font-size: 18px;
+        color: #333;
+    }
+
+    /* Style team member roles */
+    .team-member p {
+        font-size: 14px;
+        color: #777;
+    }
+</style>
+
+
+
+
+
+
+    </head>
+    <body>
+
+
+         <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-cutlery" aria-hidden="true"></i> Recipe</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="recipe list.html">Recipe List</a>
+            <a href="recipe-detail.html">Recipe Details</a>
+            <a href="add-edit-recipe.html">Add/Edit Recipes</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="Search here..">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Don't Have An Account <a href="#">Create Now</a></p>
+
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </header>
+    <!-- header section -->
+
+
+
+
+<!-- About Us Section -->
+<div class="container">
+    <h1>Our Team</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec justo eget metus vulputate sollicitudin.</p>
+    <div class="team-members">
+        <div class="team-member">
+            <img src="img/boss.png" alt="Team Member 1">
+            <h2>Mahesh Magrati</h2>
+            <p>Founder</p>
+        </div>
+        <div class="team-member">
+            <img src="img/manager.jpg" alt="Team Member 3">
+            <h2>Rajesh Hamal</h2>
+            <p>Manager</p>
+        </div>
+        <div class="team-member">
+            <img src="img/chief.jpg" alt="Team Member 2">
+            <h2>Bhuwan Kc</h2>
+            <p>Chef</p>
+        </div>
+        <div class="team-member">
+            <img src="img/critic.png" alt="Team Member 3">
+            <h2>Daya Hang Rai</h2>
+            <p>Food Critic</p>
+        </div>
+        <div class="team-member">
+            <img src="img/waiter.png" alt="Team Member 3">
+            <h2>Rekha Thapa</h2>
+            <p>Waiter</p>
+        </div>
+        <div class="team-member">
+            <img src="img/Cleaner.png" alt="Team Member 3">
+            <h2>Anmol Kc</h2>
+            <p>Head Chef</p>
+        </div>
+    </div>
+</div> <!-- About Us Section -->
+    
+
+
+
+
+
+         <!-- Footer Section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box1">
+                <h3>Contacts Info</h3>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9801111111</a><br>
+                <a href="#" class="links"> <i class="fa fa-phone"></i>  +977 9800000000</a><br>
+                <a href="#" class="links"> <i class="fa fa-envelope"></i>  info@gmail.com</a><br>
+                <a href="#" class="links"> <i class="fa fa-map-marker"></i>  Sifal,KTM,Nepal</a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Quicks Links</h3>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i>  Home</a><br>
+                <a href="recipe list.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe List</a><br>
+                <a href="recipe-detail.html" class="links"> <i class="fa fa-arrow-right"></i>  Recipe Details</a><br>
+                <a href="about.html" class="links"> <i class="fa fa-arrow-right"></i>  About Us</a><br>
+                <a href="contact.html" class="links"> <i class="fa fa-arrow-right"></i>  Contact </a><br>
+            </div>
+
+            <div class="box1">
+                <h3>Newsletter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="Your Email" class="email"><br>
+                <input type="Submit" value="Subscribe" class="btn">
+                
+            </div>
+        </div>
+
+    </section><!-- Footer Section-->
+
+
+    
+    <!-- code for linking JavaScript file -->
+    <script src="js/script.js"></script>
+    <!-- code for linking JavaScript file -->
+    </body>
+</html>
