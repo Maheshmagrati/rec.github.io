@@ -36,7 +36,7 @@ html{
 
 
 body{
-    background-color: #f0f0f0;
+    background-color: rgb(241, 236, 236);
     overflow-x: hidden; /* Prevent horizontal scrolling */
     
 }
@@ -69,7 +69,7 @@ body{
     align-items: center;
     font-weight: bold;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background-color: white;
     box-shadow: var(--box-shadow);
 }
@@ -96,6 +96,7 @@ body{
     font-size: 1.7rem;
     margin: 0 2.5rem;
     color: var(--black);
+    
 }
 
 .header .navbar a:hover {
@@ -181,7 +182,6 @@ body{
 
 
  .header .login-form{
-    border: 0px solid;
     position: absolute;
     width: 35rem;
     top: 110%;
@@ -309,6 +309,7 @@ body{
     display: flex;
     text-align: center;
     display: grid;
+    margin: 5rem;
     columns: repeat(auto-fit, minmax(30rem, .5fr));
     gap: 1.5rem;
     padding: 1rem 1rem;
@@ -317,9 +318,9 @@ body{
 
 .box{
     padding-bottom: 2rem;
-    background: #ededed;
+    background:white;
     text-align: center;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 10px rgb(31, 146, 116);
 }
 
 
@@ -352,8 +353,8 @@ body{
 
 .footer .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, .5fr));
+    gap: 1rem;
 }
 
 .box1{
@@ -397,12 +398,7 @@ body{
     padding: .7rem;
     background: rgb(209, 208, 208);
 
-}
-
-
-
-
-/*for footer*/
+}/*for footer*/
 
 
 
